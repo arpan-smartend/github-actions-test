@@ -1,0 +1,31 @@
+name: Arpan
+age: 28
+address: "dfbjfbgf:bfgjhbdf"
+active: true
+key:
+  name: Arpan
+  age: 28
+  address:
+    primary: Mankundu
+    new: Kolkata
+org:
+  - TCS
+  - EY
+  - Microsoft
+  - Google
+  - Apple
+
+salary:
+  - TCS: 12.4
+    YOE: 5
+  - EY: 22
+    YOE: 7
+  - Microsoft: 45
+    YOE: 5
+  - Google: 85
+    YOE: 7
+  - Apple: 1.5
+    YOE: 5
+
+longText: |
+  Awesome journey
