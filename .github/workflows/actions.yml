@@ -9,7 +9,7 @@ on:
       # ignore fix/anything
       - "!fix/**"
   schedule:
-    - cron: "0/5 * * * *"
+    - cron: "*/5 * * * *"
   #   - cron: "0/6 * * * *"
   repository_dispatch:
     types: [build]
