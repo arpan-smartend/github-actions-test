@@ -8,8 +8,8 @@ on:
       - "feature/**"
       # ignore fix/anything
       - "!fix/**"
-  schedule:
-    - cron: "*/5 * * * *"
+  # schedule:
+  #   - cron: "*/5 * * * *"
   #   - cron: "0/6 * * * *"
   repository_dispatch:
     types: [build]
