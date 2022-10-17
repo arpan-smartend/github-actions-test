@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       app:
-        image: alialaa17/node_api
+        image: a1ia1aa17/node_api
         ports:
           - 3001:3000
       mongo:
@@ -27,7 +27,7 @@ jobs:
       
     steps:
       - name: Post a user
-        run: "curl -X POST http://127.0.0.1:3001/api/user -H 'Content-Type: application/json' -d '{\"username\": \"Patu\", \"address\": \"Motu\"}'"
+        run: "curl -X POST http://localhost:3001/api/user -H 'Content-Type: application/json' -d '{\"username\": \"Patu\", \"address\": \"Motu\"}'"
 
       - name: Get Users
-        run: curl http://127.0.0.1:3001/api/users
+        run: curl http://localhost:3001/api/users
