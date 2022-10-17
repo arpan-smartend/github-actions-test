@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       app:
-        image: arpanknandi/node-api:latest
+        image: alialaa17/node_api
         ports:
           - 3001:3000
       mongo:
